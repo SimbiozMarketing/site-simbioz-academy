@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- ============ СНІПЕТ: Hero ============ -->
+    <template id="s_simbioz_hero" name="Simbioz — Hero">
+        <section class="s_simbioz_hero simbioz-hero pt96 pb96" data-name="Simbioz Hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <span class="simbioz-kicker">Освітня платформа</span>
+                        <h1 class="simbioz-hero-title">Академія <em>розвитку</em> бізнесу</h1>
+                        <p class="simbioz-hero-text">Освітня платформа підготовки фахівців з управління бізнесом: навчальні курси, воркшопи та практичні заняття на сучасній ІТ-системі Simbioz EMS і реальних проєктах.</p>
+                        <div class="simbioz-hero-cta">
+                            <a href="/courses" class="btn simbioz-btn-light">Обрати курс</a>
+                            <a href="/company" class="btn simbioz-btn-ghost">Для компаній</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <img src="/simbioz_academy_theme/static/src/img/hero_network.svg"
+                             class="img-fluid" alt="Симбіоз людей, бізнесу й технологій"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ============ СНІПЕТ: Переваги (4 картки) ============ -->
+    <template id="s_simbioz_features" name="Simbioz — Переваги">
+        <section class="s_simbioz_features pt64 pb64" data-name="Simbioz Переваги">
+            <div class="container">
+                <div class="simbioz-section-head">
+                    <span class="simbioz-accent-line"></span>
+                    <h2>Створено бізнесом для бізнесу</h2>
+                    <p class="simbioz-lead">Підготовка кадрів по всім сегментам бізнесу — в єдиній екосистемі Simbioz.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="simbioz-card h-100">
+                            <h3 class="simbioz-card-title">Освітня платформа</h3>
+                            <p>Середовище підготовки фахівців: навчальні курси, воркшопи, практичні заняття на сучасній ІТ-системі Simbioz EMS та реальних проєктах.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="simbioz-card h-100">
+                            <h3 class="simbioz-card-title">Сертифіковані фахівці</h3>
+                            <p>Після успішного проходження курсів фахівці отримують сертифікат компетентності та шанс приєднатися до ТОПових компаній.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="simbioz-card h-100">
+                            <h3 class="simbioz-card-title">ІТ-система</h3>
+                            <p>Комплексна система управління бізнесом Simbioz EMS — інструмент, на якому будується все практичне навчання.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="simbioz-card h-100">
+                            <h3 class="simbioz-card-title">Компанії</h3>
+                            <p>Можливість отримати доступ до бази сертифікованих фахівців з детальним резюме та підтвердженими професійними навичками.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ============ СНІПЕТ: Як це працює (3 кроки) ============ -->
+    <template id="s_simbioz_steps" name="Simbioz — Кроки">
+        <section class="s_simbioz_steps pt64 pb64" data-name="Simbioz Кроки">
+            <div class="container">
+                <div class="simbioz-section-head">
+                    <span class="simbioz-accent-line"></span>
+                    <h2>Як це працює</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="simbioz-card h-100">
+                            <div class="simbioz-step-num">01</div>
+                            <h3 class="simbioz-card-title">Обираєте курс</h3>
+                            <p>Виберіть програму, що відповідає вашим кар'єрним цілям та рівню підготовки — від спеціаліста до ТОП-менеджера.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="simbioz-card h-100">
+                            <div class="simbioz-step-num">02</div>
+                            <h3 class="simbioz-card-title">Навчаєтесь на Simbioz EMS</h3>
+                            <p>Здобуваєте знання та відпрацьовуєте їх на реальній системі управління бізнесом і кейсах справжніх впроваджень.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="simbioz-card h-100">
+                            <div class="simbioz-step-num">03</div>
+                            <h3 class="simbioz-card-title">Отримуєте сертифікат</h3>
+                            <p>Після успішного завершення — сертифікат компетентності та розміщення резюме на порталі для компаній-партнерів.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ============ СНІПЕТ: Рівні навчання ============ -->
+    <template id="s_simbioz_levels" name="Simbioz — Рівні">
+        <section class="s_simbioz_levels pt64 pb64" data-name="Simbioz Рівні">
+            <div class="container">
+                <div class="simbioz-section-head">
+                    <span class="simbioz-accent-line"></span>
+                    <h2>Поетапне ієрархічне навчання</h2>
+                    <p class="simbioz-lead">Професійні практичні знання допоможуть випускникам отримати роботу та сприяють успішній кар'єрі.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="simbioz-card h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h3 class="simbioz-card-title mb-0">Спеціаліст</h3>
+                                <span class="simbioz-badge simbioz-badge--sky">Рівень 1</span>
+                            </div>
+                            <p>Базовий рівень професійних навичок, що дозволяє впевнено виконувати щоденні робочі завдання, застосовувати інструменти та технології у своїй сфері та брати участь у проєктних командах.</p>
+                            <div class="simbioz-progress"><div class="simbioz-progress-fill" style="width:33%"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="simbioz-card h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h3 class="simbioz-card-title mb-0">Керівник</h3>
+                                <span class="simbioz-badge simbioz-badge--orange">Рівень 2</span>
+                            </div>
+                            <p>Середній рівень управлінських та професійних компетенцій, орієнтований на планування, організацію роботи команди, ухвалення рішень, контроль результатів та ефективну взаємодію зі стейкхолдерами.</p>
+                            <div class="simbioz-progress"><div class="simbioz-progress-fill" style="width:66%"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="simbioz-card h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h3 class="simbioz-card-title mb-0">ТОП-менеджер</h3>
+                                <span class="simbioz-badge simbioz-badge--purple">Рівень 3</span>
+                            </div>
+                            <p>Високий рівень стратегічних та лідерських навичок для управління бізнесом, формування стратегії розвитку, управління змінами, прийняття рішень на рівні компанії та досягнення ключових бізнес-цілей.</p>
+                            <div class="simbioz-progress"><div class="simbioz-progress-fill" style="width:100%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ============ СНІПЕТ: Курси (динамічний, з моделі simbioz.course) ============ -->
+    <template id="s_simbioz_courses" name="Simbioz — Курси">
+        <section class="s_simbioz_courses pt64 pb64" data-name="Simbioz Курси">
+            <div class="container">
+                <div class="simbioz-section-head">
+                    <span class="simbioz-accent-line"></span>
+                    <h2>Професійні навчальні курси</h2>
+                    <p class="simbioz-lead">Програми з сертифікацією компетентності — практика на платформі Simbioz EMS.</p>
+                </div>
+                <!-- Картки рендеряться JS-віджетом з моделі simbioz.course; не редагуйте цей блок -->
+                <div class="row g-4 simbioz-courses-grid o_not_editable" contenteditable="false">
+                    <div class="col-12 simbioz-courses-placeholder">
+                        <p class="text-muted">Завантаження курсів…</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ============ СНІПЕТ: Відгуки ============ -->
+    <template id="s_simbioz_testimonials" name="Simbioz — Відгуки">
+        <section class="s_simbioz_testimonials pt64 pb64" data-name="Simbioz Відгуки">
+            <div class="container">
+                <div class="simbioz-section-head">
+                    <span class="simbioz-accent-line"></span>
+                    <h2>Відгуки випускників</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="simbioz-card simbioz-quote h-100">
+                            <span class="simbioz-quote-mark">“</span>
+                            <blockquote>Після курсу я вже за тиждень працювала в реальному проєкті. Це не просто навчання — це старт у нову професію.</blockquote>
+                            <div class="simbioz-quote-person">
+                                <span class="simbioz-avatar">А</span>
+                                <span><b>Анна</b><br/><small>курс «Бізнес-аналітика»</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="simbioz-card simbioz-quote h-100">
+                            <span class="simbioz-quote-mark">“</span>
+                            <blockquote>Навчання дуже практичне: доступ до демосистеми, справжні кейси, підтримка менторів. Вперше відчув, що навчання — це не про книжки, а про роботу в реальному середовищі.</blockquote>
+                            <div class="simbioz-quote-person">
+                                <span class="simbioz-avatar">І</span>
+                                <span><b>Ігор</b><br/><small>курс «Інтегратор Simbioz EMS»</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="simbioz-card simbioz-quote h-100">
+                            <span class="simbioz-quote-mark">“</span>
+                            <blockquote>Нарешті зрозумів, як пов'язані бюджетування, контроль витрат і аналітика в одній системі. Курси дали більше, ніж університет — бо це практично й одразу на прикладах.</blockquote>
+                            <div class="simbioz-quote-person">
+                                <span class="simbioz-avatar">М</span>
+                                <span><b>Марина</b><br/><small>курс «Фінанси в Simbioz EMS»</small></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ============ СНІПЕТ: CTA-стрічка ============ -->
+    <template id="s_simbioz_cta" name="Simbioz — CTA">
+        <section class="s_simbioz_cta pt32 pb32" data-name="Simbioz CTA">
+            <div class="container">
+                <div class="simbioz-band">
+                    <div>
+                        <h3>Готові розпочати свою професійну кар'єру?</h3>
+                        <p class="mb-0">Залиште заявку на навчання — допоможемо обрати програму під ваші цілі.</p>
+                    </div>
+                    <a href="/contactus" class="btn simbioz-btn-primary">Зв'яжіться з нами</a>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- ============ Реєстрація сніпетів у Website Builder ============ -->
+    <template id="snippets" inherit_id="website.snippets" name="Simbioz Academy Snippets">
+        <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+            <t t-snippet="simbioz_academy_theme.s_simbioz_hero" string="Simbioz — Hero"
+               t-thumbnail="/simbioz_academy_theme/static/src/img/snippet_thumb.svg"/>
+            <t t-snippet="simbioz_academy_theme.s_simbioz_features" string="Simbioz — Переваги"
+               t-thumbnail="/simbioz_academy_theme/static/src/img/snippet_thumb.svg"/>
+            <t t-snippet="simbioz_academy_theme.s_simbioz_steps" string="Simbioz — Кроки"
+               t-thumbnail="/simbioz_academy_theme/static/src/img/snippet_thumb.svg"/>
+            <t t-snippet="simbioz_academy_theme.s_simbioz_levels" string="Simbioz — Рівні"
+               t-thumbnail="/simbioz_academy_theme/static/src/img/snippet_thumb.svg"/>
+            <t t-snippet="simbioz_academy_theme.s_simbioz_courses" string="Simbioz — Курси"
+               t-thumbnail="/simbioz_academy_theme/static/src/img/snippet_thumb.svg"/>
+            <t t-snippet="simbioz_academy_theme.s_simbioz_testimonials" string="Simbioz — Відгуки"
+               t-thumbnail="/simbioz_academy_theme/static/src/img/snippet_thumb.svg"/>
+            <t t-snippet="simbioz_academy_theme.s_simbioz_cta" string="Simbioz — CTA"
+               t-thumbnail="/simbioz_academy_theme/static/src/img/snippet_thumb.svg"/>
+        </xpath>
+    </template>
+
+</odoo>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="simbioz_course_view_tree" model="ir.ui.view">
+        <field name="name">simbioz.course.tree</field>
+        <field name="model">simbioz.course</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="level"/>
+                <field name="practice_platform"/>
+                <field name="duration" optional="show"/>
+                <field name="price" optional="show"/>
+                <field name="is_published" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="simbioz_course_view_form" model="ir.ui.view">
+        <field name="name">simbioz.course.form</field>
+        <field name="model">simbioz.course</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="level"/>
+                            <field name="practice_platform"/>
+                        </group>
+                        <group>
+                            <field name="duration"/>
+                            <field name="price"/>
+                            <field name="is_published"/>
+                            <field name="sequence"/>
+                        </group>
+                    </group>
+                    <group string="Опис курсу">
+                        <field name="description" nolabel="1" colspan="2"
+                               placeholder="Короткий опис програми курсу для сайту…"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="simbioz_course_action" model="ir.actions.act_window">
+        <field name="name">Курси</field>
+        <field name="res_model">simbioz.course</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Створіть перший курс</p>
+            <p>Опубліковані курси автоматично з'являться у сніпеті «Simbioz — Курси» на сайті.</p>
+        </field>
+    </record>
+
+    <menuitem id="menu_simbioz_academy_root"
+              name="Simbioz Academy"
+              sequence="60"
+              web_icon="simbioz_academy_theme,static/description/icon.png"/>
+
+    <menuitem id="menu_simbioz_academy_courses"
+              name="Курси"
+              parent="menu_simbioz_academy_root"
+              action="simbioz_course_action"
+              sequence="10"/>
+
+</odoo>

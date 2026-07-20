@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="course_business_analyst" model="simbioz.course">
+        <field name="name">Бізнес-аналітик</field>
+        <field name="sequence">10</field>
+        <field name="level">specialist</field>
+        <field name="practice_platform">Simbioz EMS</field>
+        <field name="description">Навчальний курс, що готує фахівців до ефективного збору, аналізу та управління бізнес-вимогами. Програма охоплює техніки моделювання бізнес-процесів, роботу з даними, підготовку аналітичної звітності та комунікацію із зацікавленими сторонами. Після завершення курсу слухачі зможуть впевнено трансформувати бізнес-потреби в ІТ-рішення та працювати в сучасних проєктних командах.</field>
+    </record>
+
+    <record id="course_system_analyst" model="simbioz.course">
+        <field name="name">Системний аналітик</field>
+        <field name="sequence">20</field>
+        <field name="level">specialist</field>
+        <field name="practice_platform">Simbioz EMS</field>
+        <field name="description">Курс для фахівців, які проєктують рішення на стику бізнесу та технологій: аналіз і формалізація вимог, проєктування архітектури рішення, налаштування бізнес-логіки, інтеграції між модулями та системами. Після завершення курсу слухачі зможуть перетворювати бізнес-вимоги на працюючі налаштування платформи Simbioz EMS.</field>
+    </record>
+
+    <record id="course_accountant" model="simbioz.course">
+        <field name="name">Бухгалтер</field>
+        <field name="sequence">30</field>
+        <field name="level">specialist</field>
+        <field name="practice_platform">Simbioz FAMS</field>
+        <field name="description">Навчальний курс, спрямований на підготовку фахівців з ведення бухгалтерського обліку та фінансової звітності в системі Simbioz FAMS. Програма включає вивчення основ обліку, податкового законодавства та складання фінансових документів. Після завершення курсу слухачі зможуть професійно організувати облік господарських операцій і забезпечити фінансову прозорість бізнесу.</field>
+    </record>
+
+    <record id="course_crm_marketer" model="simbioz.course">
+        <field name="name">CRM-маркетолог</field>
+        <field name="sequence">40</field>
+        <field name="level">specialist</field>
+        <field name="practice_platform">Simbioz CRMS</field>
+        <field name="description">Курс з управління клієнтською базою, лідами та угодами в модулі Simbioz CRMS: налаштування воронок продажів, сегментація клієнтів, маркетингові кампанії та аналітика результату. Після завершення курсу слухачі зможуть системно керувати продажами й маркетингом компанії в єдиній системі.</field>
+    </record>
+
+    <record id="course_project_manager" model="simbioz.course">
+        <field name="name">Project Manager</field>
+        <field name="sequence">50</field>
+        <field name="level">manager</field>
+        <field name="practice_platform">Simbioz PMS</field>
+        <field name="description">Курс підготовки керівників проєктів: планування й контроль проєктів будь-якої складності — задачі, ресурси, строки, бюджети та відповідальність команди. Практика ведення проєктів у модулі Simbioz PMS. Після завершення курсу слухачі зможуть впевнено управляти проєктними командами та доводити проєкти до результату.</field>
+    </record>
+
+    <record id="course_integrator" model="simbioz.course">
+        <field name="name">Інтегратор</field>
+        <field name="sequence">60</field>
+        <field name="level">manager</field>
+        <field name="practice_platform">Simbioz EMS</field>
+        <field name="description">Курс для майбутніх інтеграторів Simbioz EMS: аналіз потреб бізнесу, деталізація вимог, налаштування та тестування системи, навчання користувачів і супровід впровадження. Після завершення курсу слухачі зможуть проходити шлях цифрової трансформації разом із командою клієнта — від аналізу до запуску.</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти | Simbioz Academy</title>
+  <meta name="description" content="Зв'яжіться з Simbioz Academy: залиште заявку на навчання або поставте запитання. Київ, вул. Андріївська, 8-12.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@400;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="index.html" aria-label="Simbioz Academy — головна">
+      <img class="logo__img" src="img/logo_S_Academy.png" alt="Simbioz Academy">
+    </a>
+    <nav class="nav" aria-label="Основна навігація">
+      <a href="index.html">Головна</a>
+      <a href="courses.html">Курси</a>
+      <a href="abiturient.html">Абітурієнтам</a>
+      <a href="company.html">Компаніям</a>
+      <a href="events.html">Події</a>
+      <a href="contacts.html" class="is-active">Контакти</a>
+    </nav>
+    <div class="header__actions">
+      <a class="header__login" href="https://simbioz.academy/web/login">Увійти</a>
+      <a class="btn btn--primary btn--md" href="#form">Залишити заявку</a>
+      <button class="burger" aria-label="Меню" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="accent-line"></span>
+      <h1 class="h1">Зв'яжіться з нами</h1>
+      <p class="lead">Зв'яжіться з нами щодо будь-яких питань, пов'язаних з нашою компанією або послугами. Ми відповімо найближчим часом.</p>
+    </div>
+  </section>
+
+  <section class="section--tight" id="form">
+    <div class="container">
+      <div class="cta reveal">
+        <div>
+          <h2 class="h3">Наші контакти</h2>
+          <p style="margin-bottom: var(--sp-xl);">ТОВ «СИМБІОЗ ХОЛДИНГ»</p>
+          <div class="contact-info">
+            <div class="contact-info__item">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <span><b>Адреса</b><span>Україна, 04070, Київ,<br>вул. Андріївська, 8-12</span></span>
+            </div>
+            <div class="contact-info__item">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+              <span><b>Телефон</b><a href="tel:+380736567889">+38 (073) 656 78 89</a></span>
+            </div>
+            <div class="contact-info__item">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              <span><b>Email</b><a href="mailto:info@simbioz.academy">info@simbioz.academy</a></span>
+            </div>
+          </div>
+        </div>
+        <form class="form js-form" novalidate>
+          <div class="form__row">
+            <div class="field"><label for="f-name">Ім'я *</label><input id="f-name" name="name" type="text" placeholder="Ваше ім'я" required></div>
+            <div class="field"><label for="f-phone">Номер телефону</label><input id="f-phone" name="phone" type="tel" placeholder="+38 (0__) ___ __ __"></div>
+          </div>
+          <div class="form__row">
+            <div class="field"><label for="f-email">Електронна пошта *</label><input id="f-email" name="email" type="email" placeholder="you@company.com" required></div>
+            <div class="field"><label for="f-company">Компанія</label><input id="f-company" name="company" type="text" placeholder="Назва компанії"></div>
+          </div>
+          <div class="field">
+            <label for="f-course">Курс, що вас цікавить</label>
+            <select id="f-course" name="course">
+              <option value="">Оберіть курс (необов'язково)</option>
+              <option value="business-analyst">Бізнес-аналітик</option>
+              <option value="project-manager">Project Manager</option>
+              <option value="system-analyst">Системний аналітик</option>
+              <option value="accountant">Бухгалтер</option>
+              <option value="crm-marketer">CRM-маркетолог</option>
+              <option value="integrator">Інтегратор</option>
+            </select>
+          </div>
+          <div class="field"><label for="f-message">Запитання *</label><textarea id="f-message" name="message" placeholder="Ваше запитання або коментар" required></textarea></div>
+          <button class="btn btn--light" type="submit">Надіслати</button>
+          <p class="form__note">Надсилаючи форму, ви погоджуєтесь на обробку персональних даних.</p>
+          <div class="form-success" role="status"><span><b>Дякуємо!</b> Ваше повідомлення отримано — ми зв'яжемось із вами найближчим часом.</span></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="band reveal">
+        <div>
+          <h2 class="h3">Шукаєте курс?</h2>
+          <p>Перегляньте всі навчальні програми з сертифікацією компетентності.</p>
+        </div>
+        <a class="btn btn--primary" href="courses.html">Перейти до курсів</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="logo" href="index.html" aria-label="Simbioz Academy — головна">
+          <img class="logo__img" src="img/logo_footer.png" alt="Simbioz">
+        </a>
+        <p>Освітня платформа підготовки фахівців з управління бізнесом. Симбіоз людей, бізнесу й технологій для системного розвитку компаній.</p>
+      </div>
+      <div>
+        <h5>Навігація</h5>
+        <ul>
+          <li><a href="abiturient.html">Абітурієнтам</a></li>
+          <li><a href="company.html">Компаніям</a></li>
+          <li><a href="events.html">Події</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Курси</h5>
+        <ul>
+          <li><a href="courses.html">Бізнес-аналітик</a></li>
+          <li><a href="courses.html">Project Manager</a></li>
+          <li><a href="courses.html">Бухгалтер</a></li>
+          <li><a href="courses.html">Інтегратор</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Контакти</h5>
+        <ul>
+          <li><a href="tel:+380736567889">+38 (073) 656 78 89</a></li>
+          <li><a href="mailto:info@simbioz.academy">info@simbioz.academy</a></li>
+          <li><span style="font-size:14px;">Україна, 04070, Київ,<br>вул. Андріївська, 8-12</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 ТОВ «СИМБІОЗ ХОЛДИНГ». Всі права захищено.</span>
+      <span>Simbioz Academy — частина екосистеми Simbioz</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

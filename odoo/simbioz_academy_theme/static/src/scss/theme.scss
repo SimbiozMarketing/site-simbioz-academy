@@ -1,0 +1,278 @@
+// ============================================================
+// SIMBIOZ ACADEMY THEME — дизайн-токени за SIMBIOZ_UI_KIT.md
+// ============================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Sansation:wght@400;700&family=Montserrat:wght@400;500;600&display=swap');
+
+:root {
+    --simbioz-yellow: #FAB62C;
+    --simbioz-navy: #333552;
+    --simbioz-graphite: #2F323A;
+    --simbioz-blue: #3F7FBF;
+    --simbioz-orange: #F47E2A;
+    --simbioz-orange-deep: #D9651F;
+    --simbioz-cream: #FFF4D6;
+    --simbioz-midnight: #4B4E63;
+    --simbioz-twilight: #6B6E85;
+    --simbioz-dusk: #898CA8;
+    --simbioz-steel: #A7AACA;
+    --simbioz-slate: #C5C7DB;
+    --simbioz-haze: #E9EBF3;
+    --simbioz-cloud: #F5F6FA;
+    --simbioz-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --simbioz-shadow-hover: 0 8px 24px rgba(51, 53, 82, 0.14);
+}
+
+// --- Типографіка: Sansation = структура, Montserrat = контент ---
+[class^="s_simbioz_"], [class*=" s_simbioz_"] {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--simbioz-navy);
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'Sansation', 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: var(--simbioz-navy);
+    }
+}
+
+// --- Спільні елементи ---
+.simbioz-accent-line {
+    display: inline-block;
+    width: 64px;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--simbioz-yellow);
+    margin-bottom: 24px;
+}
+
+.simbioz-section-head {
+    max-width: 720px;
+    margin-bottom: 48px;
+
+    h2 { font-size: clamp(32px, 4.5vw, 48px); margin-bottom: 16px; }
+}
+
+.simbioz-lead {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--simbioz-midnight);
+}
+
+// --- Кнопки (PRIMARY = темна, за UI-кітом) ---
+.simbioz-btn-primary {
+    background: var(--simbioz-navy);
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 500;
+    &:hover { background: var(--simbioz-graphite); color: #fff; }
+}
+
+.simbioz-btn-light {
+    background: #fff;
+    color: var(--simbioz-navy);
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 500;
+    &:hover { background: var(--simbioz-cream); color: var(--simbioz-navy); }
+}
+
+.simbioz-btn-ghost {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 500;
+    &:hover { border-color: var(--simbioz-yellow); color: var(--simbioz-yellow); }
+}
+
+// --- Hero (темний navy-фон) ---
+.simbioz-hero {
+    background: var(--simbioz-navy);
+    color: #fff;
+
+    .simbioz-kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--simbioz-yellow);
+        margin-bottom: 24px;
+        &::before { content: ""; width: 32px; height: 4px; border-radius: 2px; background: var(--simbioz-yellow); }
+    }
+
+    .simbioz-hero-title {
+        font-size: clamp(40px, 6vw, 72px);
+        color: #fff;
+        margin-bottom: 24px;
+        em { font-style: normal; color: var(--simbioz-yellow); }
+    }
+
+    .simbioz-hero-text {
+        font-size: 18px;
+        line-height: 1.6;
+        color: var(--simbioz-steel);
+        max-width: 560px;
+        margin-bottom: 32px;
+    }
+
+    .simbioz-hero-cta { display: flex; flex-wrap: wrap; gap: 16px; }
+}
+
+// --- Картки ---
+.simbioz-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: var(--simbioz-shadow);
+    border: 2px solid transparent;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+
+    &:hover {
+        border-color: var(--simbioz-orange);
+        box-shadow: var(--simbioz-shadow-hover);
+        transform: translateY(-2px);
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: var(--simbioz-twilight);
+    }
+}
+
+.simbioz-card-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+// --- Кроки ---
+.simbioz-step-num {
+    font-family: 'Sansation', sans-serif;
+    font-size: 48px;
+    line-height: 1;
+    color: var(--simbioz-yellow);
+    margin-bottom: 16px;
+}
+
+// --- Бейджі (строго за таблицею кіту) ---
+.simbioz-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.simbioz-badge--sky    { background: #4FC3F7; color: var(--simbioz-graphite); }
+.simbioz-badge--orange { background: #FFB74D; color: var(--simbioz-graphite); }
+.simbioz-badge--purple { background: #BA68C8; color: #fff; }
+.simbioz-badge--green  { background: #66BB6A; color: #fff; }
+.simbioz-badge--cream  { background: var(--simbioz-cream); color: var(--simbioz-graphite); }
+
+// --- Progress bar (жовтий, за кітом) ---
+.simbioz-progress {
+    height: 8px;
+    border-radius: 4px;
+    background: var(--simbioz-haze);
+    overflow: hidden;
+    margin-top: 16px;
+}
+.simbioz-progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: var(--simbioz-yellow);
+    transition: width 0.6s ease;
+}
+
+// --- Курси ---
+.simbioz-course-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
+
+    .simbioz-course-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .simbioz-course-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-top: 16px;
+        border-top: 1px solid var(--simbioz-haze);
+    }
+
+    p { flex: 1; }
+}
+
+// --- Відгуки ---
+.simbioz-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .simbioz-quote-mark {
+        font-family: 'Sansation', sans-serif;
+        font-size: 48px;
+        line-height: 0.6;
+        color: var(--simbioz-yellow);
+    }
+
+    blockquote {
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--simbioz-midnight);
+        font-style: italic;
+        flex: 1;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .simbioz-quote-person {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-top: 16px;
+        border-top: 1px solid var(--simbioz-haze);
+        small { color: var(--simbioz-dusk); }
+    }
+}
+
+.simbioz-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--simbioz-navy);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    flex: none;
+}
+
+// --- CTA-стрічка (кремова, за кітом) ---
+.simbioz-band {
+    background: var(--simbioz-cream);
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+
+    h3 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 8px; }
+    p { color: var(--simbioz-midnight); }
+}

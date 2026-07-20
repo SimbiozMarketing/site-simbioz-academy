@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" fill="none">
+  <g stroke="rgba(255,255,255,0.25)" stroke-width="1.5">
+    <line x1="240" y1="200" x2="110" y2="90"/><line x1="240" y1="200" x2="370" y2="80"/>
+    <line x1="240" y1="200" x2="90" y2="290"/><line x1="240" y1="200" x2="380" y2="310"/>
+    <line x1="110" y1="90" x2="370" y2="80"/><line x1="90" y1="290" x2="380" y2="310"/>
+    <line x1="110" y1="90" x2="90" y2="290"/><line x1="370" y1="80" x2="380" y2="310"/>
+  </g>
+  <circle cx="240" cy="200" r="46" fill="#FAB62C"/>
+  <text x="240" y="207" text-anchor="middle" font-family="Sansation, sans-serif" font-size="20" fill="#333552">EMS</text>
+  <g fill="#4B4E63" stroke="rgba(255,255,255,0.5)" stroke-width="1.5">
+    <circle cx="110" cy="90" r="30"/><circle cx="370" cy="80" r="30"/>
+    <circle cx="90" cy="290" r="30"/><circle cx="380" cy="310" r="30"/>
+  </g>
+  <text x="110" y="95" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="11" fill="#fff">Люди</text>
+  <text x="370" y="85" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="11" fill="#fff">Бізнес</text>
+  <text x="90" y="295" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="11" fill="#fff">Знання</text>
+  <text x="380" y="315" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="11" fill="#fff">Технології</text>
+</svg>

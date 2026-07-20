@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_simbioz_course_all,simbioz.course.all,model_simbioz_course,,1,0,0,0
+access_simbioz_course_designer,simbioz.course.designer,model_simbioz_course,website.group_website_designer,1,1,1,1
