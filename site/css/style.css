@@ -383,8 +383,12 @@ h1, h2, h3, h4, h5 { font-family: var(--font-head); font-weight: 400; line-heigh
 .partner:hover { border-color: var(--orange); }
 .partner__logo { height: 56px; display: flex; align-items: center; margin-bottom: var(--sp-xs); }
 .partner__logo img { max-height: 56px; max-width: 150px; object-fit: contain; border-radius: 6px; }
+.partner__logo:last-child { margin-bottom: 0; }
+.partner__logo--xl { height: 54.6px; }
+.partner__logo--xl img { max-height: 54.6px; max-width: 146.25px; }
 .partners--lg .partner__logo { height: 168px; }
 .partners--lg .partner__logo img { max-height: 168px; max-width: 450px; }
+.partners--lg .partner { justify-content: center; align-items: center; }
 .partner b { font-family: var(--font-head); font-size: 18px; font-weight: 400; }
 .partner span { font-size: 12px; color: var(--dusk); }
 
